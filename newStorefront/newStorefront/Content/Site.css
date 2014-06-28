@@ -1,0 +1,104 @@
+﻿body {
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header, footer, nav, section {
+    display: block;
+}
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+fieldset {
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*---------------------------------------------------------*/
+
+.header {
+    height: 100px;
+    width: 100% + 8px;
+    background-color: #005383;
+    color: white;
+    line-height: 80px;
+    font-size: 100px;
+    border: 2px solid black;
+    margin: -8px;
+    font-family: 'Century Gothic', futura, 'URW Gothic L', Verdana, sans-serif;
+}
+
+.navBar {
+    height: 50px;
+    width: 100%;
+    margin: -55px 0 0 0;
+    text-align: center;
+}
+
+.navBarItems {
+    display: inline-block;
+    height: 30px;
+    width: 75px;
+    margin: 21px -3px 0 -3px;
+    border: 2px solid black;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    background-color:  white;
+    color: black;
+    transition: all .5s;
+}
+
+.navBarItems:hover {
+    border-top: 2px solid #005383;
+    background-color: #005383;
+    color: white;
+    height: 100px;
+}
+

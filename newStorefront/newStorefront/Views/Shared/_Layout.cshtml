@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="header"><a href="@Url.Action("index", "home")" @*target="_blank";*@ style="text-decoration: none; color: white;">MY STORE</a></div>
+    <ul class="navBar">
+        <a href="@Url.Action("index", "home")"><div class="navBarItems" id="navBarItem1">Home</div></a>
+        <li class="navBarItems">Products</li>
+        <li class="navBarItems">Cart</li>
+        <li class="navBarItems">About</li>
+        <a href="@Url.Action("index", "contact")"><li class="navBarItems">Contact</li></a>
+        <a href="@Url.Action("index", "product")"><li class="navBarItems">Dashboard</li></a>
+    </ul>
+    @RenderBody()
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
